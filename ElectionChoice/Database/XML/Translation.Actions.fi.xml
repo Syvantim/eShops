@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<epages>
+  <Language Language="fi">
+    <Object Path="/Classes/Shop/Actions/MBO-ViewElectionSettings">
+      <Attribute Name="MenuName">Äänestysvalinnat</Attribute>
+      <Attribute Name="Name">Äänestysvalinnat
+      </Attribute>
+    </Object>
+  </Language> 
+</epages>

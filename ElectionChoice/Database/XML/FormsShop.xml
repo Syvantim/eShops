@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epages Cartridge="FI_GAGAR::ElectionChoice">
+  <Class reference="1" Path="/Classes/Shop">
+    <Form Name="ElectionSettings" delete="1">
+      <FormField Name="PollingA" Type="integer" Mandatory="1" MinValue="0" />
+      <FormField Name="PollingB" Type="integer" Mandatory="1" MinValue="0" />
+      <FormField Name="PollingC" Type="integer" Mandatory="1" MinValue="0" />
+      <FormField Name="PollingD" Type="integer" Mandatory="1" MinValue="0" />
+    </Form>
+  </Class>
+</epages>

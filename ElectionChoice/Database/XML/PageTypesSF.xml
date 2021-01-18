@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<epages>
+  <!-- page types and templates -->
+  <Cartridge reference="1" Package="FI_GAGAR::ElectionChoice">
+    <Class reference="1" Path="/Classes/Object">
+      <PageType reference="1" Alias="SF">
+        <Template Name="ElectionChoiceBox" FileName="SF/NavElements/SF.ElectionChoiceBox.html" delete="1" />
+      </PageType>
+    </Class>
+    <Class reference="1" Path="/Classes/Shop">
+      <PageType Alias="SF-ElectionResult" Base="SF" delete="1">
+        <Template Name="Content" FileName="SF/SF-ElectionResult.Content.html" />
+        <ViewAction URLAction="ViewElectionResult" />
+      </PageType>
+    </Class>
+  </Cartridge>
+</epages>

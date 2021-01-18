@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<epages>
+  <Language Language="en">
+    <Translation Keyword="PollingSettings">Election choice settings</Translation>
+    <Translation Keyword="PollingA">Set a value for A</Translation>
+    <Translation Keyword="PollingB">Set a value for B</Translation>
+    <Translation Keyword="PollingC">Set a value for C</Translation>
+    <Translation Keyword="PollingD">Set a value for D</Translation>    
+    <Translation Keyword="PleaseVote">Please vote</Translation>
+    <Translation Keyword="VoteA">Vote A</Translation>
+    <Translation Keyword="VoteB">Vote B</Translation>
+    <Translation Keyword="VoteC">Vote C</Translation>
+    <Translation Keyword="VoteD">Vote D</Translation>
+    <Translation Keyword="VoteNow">Vote now</Translation>
+    <Translation Keyword="VotedForA">Voted for A</Translation>
+    <Translation Keyword="VotedForB">Voted for B</Translation>
+    <Translation Keyword="VotedForC">Voted for C</Translation>
+    <Translation Keyword="VotedForD">Voted for D</Translation>
+    <Translation Keyword="FORMAT_NOT_INTEGER">Value is not integer number</Translation>    
+  </Language>
+</epages>

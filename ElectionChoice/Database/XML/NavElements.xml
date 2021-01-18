@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<epages>
+  <NavElements reference="1" Class="Object" Alias="NavElements">
+    <NavElement Alias="ElectionChoiceBox" Template="ElectionChoiceBox" NavElementGroup="/NavElementGroups/Pages" IconImage="ico_xl_link" Position="1" delete="1" />
+  </NavElements>
+</epages>

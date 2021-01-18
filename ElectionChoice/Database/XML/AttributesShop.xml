@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<epages>
+  <Class reference="1" Path="/Classes/Shop">
+    <Object Alias="Attributes">
+      <Attribute Alias="PollingA" Type="Integer" DefaultValue="0" IsMandatory="0" IsCacheable="1" IsExportable="1
+" ExportLevel="1" Package="DE_EPAGES::Object::API::Attributes::DefaultAttribute" Position="1000" delete="1" />
+      <Attribute Alias="PollingB" Type="Integer" DefaultValue="0" IsMandatory="0" IsCacheable="1" IsExportable="1
+" ExportLevel="1" Package="DE_EPAGES::Object::API::Attributes::DefaultAttribute" Position="1000" delete="1" />
+      <Attribute Alias="PollingC" Type="Integer" DefaultValue="0" IsMandatory="0" IsCacheable="1" IsExportable="1
+" ExportLevel="1" Package="DE_EPAGES::Object::API::Attributes::DefaultAttribute" Position="1000" delete="1" />
+      <Attribute Alias="PollingD" Type="Integer" DefaultValue="0" IsMandatory="0" IsCacheable="1" IsExportable="1
+" ExportLevel="1" Package="DE_EPAGES::Object::API::Attributes::DefaultAttribute" Position="1000" delete="1" />
+    </Object>
+  </Class>
+</epages>

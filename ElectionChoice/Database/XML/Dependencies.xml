@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epages>
+  <Dependency Package="DE_EPAGES::Design" Comment="Depending on Design, as we are using the installer from DE_EPAGES::Design" />
+</epages>

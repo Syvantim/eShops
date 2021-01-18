@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<epages>
+  <Language Language="en">
+    <Object Path="/Classes/Shop/Actions/MBO-ViewElectionSettings">
+      <Attribute Name="MenuName">Election choices</Attribute>
+      <Attribute Name="Name">Election choices</Attribute>
+    </Object>
+  </Language> 
+</epages>

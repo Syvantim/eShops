@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<epages>
+  <Language Language="fi">
+    <Object Path="/NavElements/ElectionChoiceBox">
+      <Attribute Name="Name">Äänestys</Attribute>
+    </Object>
+  </Language>
+</epages>

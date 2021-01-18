@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<epages>
+  <Language Language="fi">
+    <Translation Keyword="PollingSettings">Äänestysasetukset</Translation>
+    <Translation Keyword="PollingA">Anna A:n arvo</Translation>
+    <Translation Keyword="PollingB">Anna B:n arvo</Translation>
+    <Translation Keyword="PollingC">Anna C:n arvo</Translation>
+    <Translation Keyword="PollingD">Anna D:n arvo</Translation>
+    <Translation Keyword="PleaseVote">Äänestä</Translation>
+    <Translation Keyword="VoteA">Äänet A</Translation>
+    <Translation Keyword="VoteB">Äänet B</Translation>
+    <Translation Keyword="VoteC">Äänet C</Translation>
+    <Translation Keyword="VoteD">Äänet D</Translation>    
+    <Translation Keyword="VoteNow">Äänestä nyt</Translation>
+    <Translation Keyword="VotedForA">Äänestetty A:ta</Translation>
+    <Translation Keyword="VotedForB">Äänestetty B:tä</Translation>
+    <Translation Keyword="VotedForC">Äänestetty C:tä</Translation>
+    <Translation Keyword="VotedForD">Äänestetty D:tä</Translation>
+    <Translation Keyword="FORMAT_NOT_INTEGER">Arvo ei ole kokonaisluku</Translation>
+  </Language>
+</epages>

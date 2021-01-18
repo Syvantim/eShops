@@ -1,0 +1,55 @@
+<form action="?ObjectID=#ID&amp;ViewAction=#INPUT.ViewAction" method="post" class="ep-js" data-js=".uiForm({sho
+    wSaveWarn:true})">
+      <div class="Dialog">
+        <input type="hidden" name="ChangeAction" value="MBO-SavePollingSettings" />
+        <input type="hidden" name="ErrorAction" value="#INPUT.ViewAction" />
+    
+        #IF(#FormError)
+        <div class="DialogMessage MessageWarning">
+          <h3>{InputError}</h3>
+          <p>
+            #LOOP(#FormErrors.Errors)
+            {Error}: #TRANSLATE(#Name), #TRANSLATE(#Reason)<br />
+            #ENDLOOP
+            <br />
+            {PleaseCorrectErrors}
+          </p>
+        </div>
+        #ENDIF
+    
+        #WITH_ERROR(#FormError)
+          <table class="FormGrid">
+            <tr>
+              <td class="InputLabellingWide">{PollingA}  <span class="MandatoryStar">{MandatoryStar}</span></td>
+              <td class="InputBlock #IF(#FormError_PollingA)DialogError#ENDIF">
+                <input type="text" class="Unit ep-js" data-js=".uiInput()" name="PollingA" value="#PollingA" />
+              </td>
+            </tr>
+            <tr>
+              <td class="InputLabellingWide">{PollingB}  <span class="MandatoryStar">{MandatoryStar}</span></td>
+              <td class="InputBlock #IF(#FormError_PollingB)DialogError#ENDIF">
+                <input type="text" class="Unit ep-js" data-js=".uiInput()" name="PollingB" value="#PollingB" />
+              </td>
+            </tr>
+            <tr>
+              <td class="InputLabellingWide">{PollingC}  <span class="MandatoryStar">{MandatoryStar}</span></td>
+              <td class="InputBlock #IF(#FormError_PollingC)DialogError#ENDIF">
+                <input type="text" class="Unit ep-js" data-js=".uiInput()" name="PollingC" value="#PollingC" />
+              </td>
+            </tr>
+            <tr>
+              <td class="InputLabellingWide">{PollingD}  <span class="MandatoryStar">{MandatoryStar}</span></td>
+              <td class="InputBlock #IF(#FormError_PollingD)DialogError#ENDIF">
+                <input type="text" class="Unit ep-js" data-js=".uiInput()" name="PollingD" value="#PollingD" />
+              </td>
+            </tr>
+          </table>
+        #ENDWITH_ERROR
+    
+        <div class="DialogButtonbar ep-js" data-js=".holdOnTop('bottom', {inheritDimensions: true})">
+          <button class="Button SaveButton" type="submit" name="MBO-SaveElectionSettings" value="{Save}">{Save}</button>
+        </div>
+        {MandatoryFields}
+      </div>
+    </form>
+    

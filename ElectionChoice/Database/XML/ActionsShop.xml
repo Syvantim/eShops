@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epages>
+  <Class reference="1" Path="/Classes/Shop">
+    <!-- This an example for actions -->
+    <!-- Each ViewAction is assigned a package and a function name that implements it -->
+    <!-- In case of simple view actions, where there is no further functionality but to show a page, you simply call -->
+    <!-- the view function of the presentation cartridge -->
+    <Object Alias="Actions">   
+      <ViewAction Alias="MBO-ViewElectionSettings" Package="DE_EPAGES::Presentation::UI::Object" FunctionName="View" delete="1"/>
+      <ViewAction Alias="ViewElectionResult" Package="FI_GAGAR::ElectionChoice::UI::Shop" FunctionName="View" delete="1"/>
+      <ChangeAction Alias="MBO-SaveElectionSettings" Package="FI_GAGAR::ElectionChoice::UI::Shop" FunctionName="Save" delete="1"/>
+      <ChangeAction Alias="SaveElection" Package="FI_GAGAR::ElectionChoice::UI::Shop" FunctionName="Save" delete="1"/>
+    </Object>
+  </Class>
+</epages>
