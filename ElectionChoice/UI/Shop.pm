@@ -31,4 +31,23 @@ sub SaveSettings {
     $Shop->set($hFormValues);  #  $Shop->set({ 'PollingA' => 3, 'PollingB' => 3, 'PollingC' => 3 });
     return;
 }
+
+sub SaveElection {
+    my $self = shift;
+    my ($Servlet) = @_;
+    my $Shop = $Servlet->object;
+    my $Form = $Servlet->form;
+
+    LogDebug("Form",$Form);
+
+    my $Result = $Form->value('Result');
+    return unless $Result =~ /^[ABC]$/;
+
+    my $Attribute = "Polling" . $Result;
+    my $OldValue = $Shop->get($Attribute);
+    $Shop->set({ $Attribute => $OldValue + 1 });
+
+    return;
+
+}
 1;

@@ -1,14 +1,14 @@
 
 <div class="ContextBox">
     <div class="ContextBoxHead">
-      <h1>{PleaseVote}</h1>
+      <h3>{PleaseVote}</h3>
     </div>
     <div class="ContextBoxBody">
       <form class="ep-js" data-js=".uiForm()" action="?ObjectPath=#Shop.Path[url]&amp;ViewAction=ViewElectionResult" method="post">
         <input type="hidden" name="ChangeAction" value="SaveElection" />
-        <label for="A">{VoteA}:</label> <input type="radio" id="A" class="ep-js" data-js=".uiValidate({required:true})" name="Result" value="A" /><br />
-        <label for="B">{VoteB}:</label> <input type="radio" id="B" class="ep-js" data-js=".uiValidate({required:true})" name="Result" value="B" /><br />
-        <label for="C">{VoteC}:</label> <input type="radio" id="C" class="ep-js" data-js=".uiValidate({required:true})" name="Result" value="C" /><br />
+        <label for="A">{VoteA}:</label> <input type="radio" id="A" class="ep-js" data-js=".uiValidate({required:true})" name="Result" value="A" />
+        <label for="B">{VoteB}:</label> <input type="radio" id="B" class="ep-js" data-js=".uiValidate({required:true})" name="Result" value="B" />
+        <label for="C">{VoteC}:</label> <input type="radio" id="C" class="ep-js" data-js=".uiValidate({required:true})" name="Result" value="C" />
         <label for="D">{VoteD}:</label> <input type="radio" id="D" class="ep-js" data-js=".uiValidate({required:true})" name="Result" value="D" /><br />
         <button type="submit" class="ep-js" data-js=".uiInput()" name="SubmitButton">
           {VoteNow}
