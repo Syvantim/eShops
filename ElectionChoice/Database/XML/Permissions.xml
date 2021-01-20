@@ -7,10 +7,11 @@
   </Role> -->
   <Role reference="1" Path="/Classes/Shop/Roles/Merchant">
     <RoleAction Class="Shop" Action="MBO-ViewElectionSettings" delete="1"/>
-    <RoleAction Class="Shop" Action="MBO-SaveElectionSettings" delete="1"/> 
+    <RoleAction Class="Shop" Action="MBO-SaveElectionSettings" delete="1"/>
+    <RoleAction Class="Shop" Action="MBO-ExportToFile" delete="1"/>   
   </Role>
   <Role reference="1" Path="/Classes/Shop/Roles/Customer">
     <RoleAction Class="Shop" Action="SaveElection" delete="1"/>
-    <RoleAction Class="Shop" Action="ViewElectionResult" delete="1"/>   
+    <RoleAction Class="Shop" Action="ViewElectionResult" delete="1"/>  
   </Role>
 </epages>

@@ -17,5 +17,6 @@
     <Translation Keyword="VotedForC">Äänestetty C:tä</Translation>
     <Translation Keyword="VotedForD">Äänestetty D:tä</Translation>
     <Translation Keyword="FORMAT_NOT_INTEGER">Arvo ei ole kokonaisluku</Translation>
+    <Translation Keyword="Download">Tallenna tiedosto</Translation>
   </Language>
 </epages>

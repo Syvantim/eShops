@@ -16,6 +16,7 @@
     <Translation Keyword="VotedForB">Voted for B</Translation>
     <Translation Keyword="VotedForC">Voted for C</Translation>
     <Translation Keyword="VotedForD">Voted for D</Translation>
-    <Translation Keyword="FORMAT_NOT_INTEGER">Value is not integer number</Translation>    
+    <Translation Keyword="FORMAT_NOT_INTEGER">Value is not integer number</Translation>
+    <Translation Keyword="Download">Save file</Translation>    
   </Language>
 </epages>
